@@ -37,3 +37,55 @@ body{
 .Fshadow{
     box-shadow: 0 0 3px #2d8844;
 }
+.Mlateral{
+    display: flex;
+    background: #4c915d;
+    width: 10%;
+    height: 100vh;
+}
+.Mlateral-min{
+    display: flex;
+    background: #4c915d;
+    width: 5%;
+    height: 100vh;
+}
+.Mlinha{
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    justify-content: center;
+}
+
+.Mbtn{
+    height: 50px;
+    font-size: 30px;
+    border: none;
+    border-radius: 10%;
+    background: #4c915d;
+    
+}
+.Ibtn{
+    margin-top: 5%;
+    width: 100%;
+    height: 50px;
+    border: none;
+    /* border-radius: 10%; */
+    background: #4c915d;
+    align-items: flex-start;
+}
+.Ibtn:hover{
+    box-shadow: 0 0 3px #000, 0 0 20px #789c7b;
+}
+.Mshadow{
+    box-shadow: 0 0 3px #000000;
+}
+.Mbtn:hover{
+    box-shadow: 0 0 3px #000, 0 0 20px #789c7b;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Nitem{
+    font-size: 15px;
+}
